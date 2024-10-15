@@ -8,6 +8,7 @@ namespace TicTacToeGame.Model
 {
     public class Board
     {
+        //declares 2d array 3x3 grid of characters means to represent the tic tac toe board
         private char[,] board;
 
         public Board()
@@ -36,6 +37,7 @@ namespace TicTacToeGame.Model
             return false;
         }
 
+        //this method returns the current state of board means 2d array
         public char[,] GetBoard()
         {
             return board;
